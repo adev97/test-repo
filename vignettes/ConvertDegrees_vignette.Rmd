@@ -1,0 +1,24 @@
+---
+title: "ConvertDegrees_vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{ConvertDegrees_vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This package is designed to convert the Longitude and Latitude values from decimals degrees minute to decimal degrees. 
+
+Change_Degree(longitude, latitude, df) takes three arguments and repopulates the existing dataframe with updated values
+
+
+```{r setup}
+library(ConvertDegrees)
+```
